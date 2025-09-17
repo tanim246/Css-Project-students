@@ -77,3 +77,60 @@ nav ul {
   flex-direction: column;
   gap:20px;
 }
+
+
+.Work-container .card-container{
+  /* background-color: coral; */
+  /* padding: 12px; */
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.Work-container .card-container .card{
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+.Work-container .card-container .contant{
+  /* background-color: #ff6464; */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.Work-container .title{
+  /* background-color: #ff6464; */
+  margin: 12px;
+  font-size: 24px;
+}
+footer{
+  display: flex;
+  /* background-color: #ff6464; */
+  margin-bottom: 50px;
+  padding: 60px;
+  justify-content: center;
+}
+footer .contant{
+  /* background-color: antiquewhite; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .contant .icons{
+  font-size: 32px;
+}
+footer .contant .icons span{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+footer .contant .icons i:hover{
+color: #ff6464;
+/* borde/r-radius: 100%; */
+cursor: pointer;
+
+}
